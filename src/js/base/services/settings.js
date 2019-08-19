@@ -41,8 +41,8 @@ angular.module('n52.core.base')
             timeseriesDataBuffer: moment.duration(2, 'h'),
             // default start time extent
             defaultStartTimeExtent: {
-                duration: moment.duration(1, 'day'),
-                end: moment().endOf('day')
+                duration: moment.duration(5, 'years'),
+                end: moment().endOf('year')
             },
             // default scaling of loaded diagram
             defaultZeroScale: false,
